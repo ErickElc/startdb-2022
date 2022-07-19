@@ -35,4 +35,7 @@ estadosEstaoCorretos = estadosEstaoCorretos && validarEtapa(0, palavraEsperada, 
 
 const mensagemFinal =  estadosEstaoCorretos == true ? "Regras validadas com sucesso" :
 "Parece que algo está errado, verique suas regras";
+
+
+
 console.log(mensagemFinal);
