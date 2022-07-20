@@ -18,7 +18,7 @@ class Forca {
   chutar(letra) {
     let letraFormatada = letra.toLowerCase();
 
-    if(letraFormatada.length > 1 || letraFormatada == ''){                                      // verificando se está sendo digitado apenas uma letra;
+    if(letraFormatada.length > 1 || letraFormatada == ''){                                      // verificando se está sendo digitado é apenas uma letra;
       console.log("Dado inválido, digite de novo");
       return this.estadoGame;
     }
